@@ -31,7 +31,7 @@ void main() async {
       runApp(MyApp(link: onValue));
     });
   } else {
-    print('PetCubit is NOT registered!');
+    log('PetCubit is NOT registered!');
   }
 }
 

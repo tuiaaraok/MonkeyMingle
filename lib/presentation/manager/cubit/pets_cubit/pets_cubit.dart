@@ -27,7 +27,7 @@ class PetCubit extends Cubit<PetState> {
 
   Future<void> getLostData() async {
     final picker = await ImagePicker().pickImage(source: ImageSource.gallery);
-    if (picker == null) return null;
+    if (picker == null) return;
     final imageBytes = await picker.readAsBytes();
     emit(PetImageUpdated(image: Uint8List.fromList(imageBytes)));
   }

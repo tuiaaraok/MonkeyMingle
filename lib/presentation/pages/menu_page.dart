@@ -73,6 +73,7 @@ class _MenuPageState extends State<MenuPage> {
   }
 }
 
+// ignore: must_be_immutable
 class BacgroundWidget extends StatelessWidget {
   BacgroundWidget({super.key, required this.child});
   Widget child;

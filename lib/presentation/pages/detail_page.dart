@@ -8,16 +8,6 @@ import 'package:monkeq/presentation/pages/new_feeding_mode_page.dart';
 import 'package:monkeq/presentation/pages/new_procedure_page.dart';
 import 'package:monkeq/presentation/widgets/widget.dart';
 import 'package:monkeq/presentation/widgets/pet_card.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:intl/intl.dart';
-import 'package:monkeq/domain/entities/pet_entity.dart';
-import 'package:monkeq/presentation/manager/cubit/pets_cubit/pets_cubit.dart';
-import 'package:monkeq/presentation/manager/cubit/pets_cubit/pets_state.dart';
-import 'package:monkeq/presentation/pages/new_feeding_mode_page.dart';
-import 'package:monkeq/presentation/pages/new_procedure_page.dart';
-import 'package:monkeq/presentation/widgets/widget.dart';
-import 'package:monkeq/presentation/widgets/pet_card.dart';
 
 class DetailPage extends StatelessWidget {
   const DetailPage({super.key});

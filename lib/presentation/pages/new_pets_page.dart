@@ -25,16 +25,7 @@ class _NewPetsPageState extends State<NewPetsPage> {
   late FormFieldConfig dateOfBirthConfig;
   late FormFieldConfig heightConfig;
   late FormFieldConfig weightConfig;
-  MenuElem selectedGender = MenuElem(
-    listElements: [
-      "Vaccination",
-      "Deworming",
-      "Grooming",
-      "Check-up",
-      "Surgery",
-      "Other",
-    ],
-  );
+  MenuElem selectedGender = MenuElem(listElements: ["Boy", "Girl"]);
 
   @override
   void initState() {

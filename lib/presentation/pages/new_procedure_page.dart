@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
@@ -118,7 +117,7 @@ class _NewProcedurePageState extends State<NewProcedurePage> {
                     SizedBox(height: 20.h),
                     DropMenuWidget(
                       title: "Type",
-                      menu: MenuElem(listElements: ["Boy", "Girl"]),
+                      menu: MenuElem(listElements: _procedureTypes),
                       hint: "",
                       controller: _typeController,
                       onChanged: (value) {

@@ -3,7 +3,6 @@ import 'package:monkeq/presentation/manager/cubit/pets_cubit/pets_cubit.dart';
 import 'package:monkeq/presentation/manager/cubit/pets_cubit/pets_state.dart';
 import 'package:monkeq/presentation/pages/detail_page.dart';
 import 'package:monkeq/presentation/pages/menu_page.dart';
-import 'package:monkeq/presentation/pages/new_pets_page.dart';
 import 'package:monkeq/presentation/widgets/pet_card.dart';
 import 'package:monkeq/presentation/widgets/widget.dart';
 
