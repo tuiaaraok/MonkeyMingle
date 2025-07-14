@@ -98,7 +98,7 @@ class _NewFeedingModePageState extends State<NewFeedingModePage> {
             SliverAppBar(
               backgroundColor: containerMainColor,
               title: Text(
-                "A new pets",
+                "New feeding mode",
                 textAlign: TextAlign.center,
                 style: textStyleAppBar,
               ),

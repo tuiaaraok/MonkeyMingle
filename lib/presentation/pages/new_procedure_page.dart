@@ -78,7 +78,7 @@ class _NewProcedurePageState extends State<NewProcedurePage> {
           SliverAppBar(
             backgroundColor: containerMainColor,
             title: Text(
-              "A new pets",
+              "New procedure",
               textAlign: TextAlign.center,
               style: textStyleAppBar,
             ),
